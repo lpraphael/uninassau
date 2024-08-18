@@ -1,0 +1,111 @@
+<!-- Atividade 1 disciplina Usabilidade e Interface Homem Máquina -->
+<!-- Raphael Lyra Perazzo Leite Galvão -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cardápio Digital Interativo</title>
+  </head>
+  <body>
+    <div>
+      <h1>Categorias</h1>
+      <div>
+        <h3>🍔 Hambúrgueres 🍔</h3>
+        <div>
+          <div class="cards">
+            <input type="checkbox" name="xBacon" id="xBacon" />
+            <label for="xBacon">
+              X-BACON: 1 hamburguer de 180g, 2 fatias de Cheddar e bacon em
+              tiras. R$ 29,00
+            </label>
+            <input type="number" min="1" max="10" value="1" />
+          </div>
+        </div>
+        <div>
+          <input type="checkbox" name="xBacon" id="xBacon" />
+          <label for="xBacon">
+            X-SALADA: 1 hamburguer de 180g, 1 fatia de Mussarela, alface e
+            tomate. R$ 24,00
+          </label>
+          <input type="number" min="1" max="10" value="1" />
+        </div>
+      </div>
+      <div>
+        <h3>🍕 Pizza 🍕</h3>
+        <div>
+          <div class="cards">
+            <input type="checkbox" name="xBacon" id="xBacon" />
+            <label for="xBacon">
+              CALABRESA: Pizza de Calabresa com queijo mussalera, cebola e
+              azeitona. R$ 39,00
+            </label>
+            <input type="number" min="1" max="10" value="1" />
+          </div>
+        </div>
+        <div>
+          <input type="checkbox" name="xBacon" id="xBacon" />
+          <label for="xBacon">
+            PEPPERONI: Pizza de Pepperoni com queijo mussalera, cebola e
+            azeitona. R$ 42,00
+          </label>
+          <input type="number" min="1" max="10" value="1" />
+        </div>
+      </div>
+      <div>
+        <h3>🍹 Bebidas 🍹</h3>
+        <div>
+          <div class="cards">
+            <input type="checkbox" name="xBacon" id="xBacon" />
+            <label for="xBacon">
+              REFRIGERANTE: 1 Litro, Opções disponíveis: Coca-Cola, Sprite,
+              Guaraná. R$ 10,00
+            </label>
+            <input type="number" min="1" max="10" value="1" />
+          </div>
+        </div>
+        <div>
+          <input type="checkbox" name="xBacon" id="xBacon" />
+          <label for="xBacon">
+            SUCOS: 1 Litro, Opções disponíveis: Laranja, Maracujá, Acerola. R$
+            14,00
+          </label>
+          <input type="number" min="1" max="10" value="1" />
+        </div>
+      </div>
+    </div>
+    <div>
+      <h3>💵 Carrinho de Compras 💵</h3>
+      <div>
+        <span>X-BACON (2x)</span>
+        <span>R$ 58,00</span>
+      </div>
+      <div>
+        <span>REFRIGERANTE: Coca-Cola (1x)</span>
+        <span>R$ 10,00</span>
+      </div>
+      <div>Total: R$ 6 8,00</div>
+      <div>
+        <button>Adicionar Mais Itens</button>
+        <button>Finalizar Pedido</button>
+      </div>
+    </div>
+    <div>
+      <h2>Finalizar Pedido</h2>
+      <label for="metodoPgt">Opções de Pagamento:</label>
+      <select id="metodoPgt">
+        <option value="debito">Débito</option>
+        <option value="credito">Crédito</option>
+        <option value="pix">Pix</option>
+      </select>
+      <input type="text" placeholder="Nome Completo" />
+      <input type="text" placeholder="Endereço de Entrega" />
+      <div>Resumo do Pedido: R$ 68,00</div>
+      <div>
+        <button>Confirmar Pedido</button>
+        <button>Cancelar Pedido</button>
+      </div>
+    </div>
+  </body>
+</html>
